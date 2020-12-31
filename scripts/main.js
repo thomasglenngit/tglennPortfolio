@@ -1,19 +1,19 @@
 const projectsArray = [
   {
     title: '"Melodious":',
-    src: '../img/melodious.png',
+    src: './img/melodious.png',
     url: "https://melodious.io",
     description: 'An application where you can play a virtual piano that plays singing notes, and teaches you melodies too.'
   },
   {
     title: '"Hair Salon":',
-    src: '../img/eauclaire.png',
+    src: './img/eauclaire.png',
     url: "https://github.com/thomasglenngit/HairSalon.Solution",
     description: 'An application for salon owners to keep track of their employees and clients.'
   },
   {
     title: '"Quake Modeler":',
-    src: '../img/CityEQ.jpg',
+    src: './img/CityEQ.jpg',
     url: "https://github.com/thomasglenngit/QuakeModeler.Solution",
     description: 'An application to model history of earthquakes and prediction for any given location query.'
   },
