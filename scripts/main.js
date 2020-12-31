@@ -25,10 +25,11 @@ const projectsArray = [
   }
 ]
 
-let myProjects = document.getElementById('projects')
+
 
 document.addEventListener("DOMContentLoaded", (event) => {
   event.preventDefault()
+  let myProjects = document.getElementById('projects')
 
   projectsArray.forEach((project) => {
     myProjects.innerHTML +=
