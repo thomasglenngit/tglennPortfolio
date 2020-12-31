@@ -19,7 +19,7 @@ const projectsArray = [
   },
   {
     title: '"kombucha":',
-    src: '../img/kombucha-bottle.jpg',
+    src: './img/kombucha-bottle.jpg',
     url: "https://github.com/thomasglenngit/kombucha",
     description: 'An application for bartenders to manage their stock'
   }
