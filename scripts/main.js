@@ -1,4 +1,4 @@
-let projectsArray = [
+const projectsArray = [
   {
     title: '"Melodious":',
     src: '../img/melodious.png',
@@ -25,15 +25,15 @@ let projectsArray = [
   }
 ]
 
-document.addEventListener("DOMContentLoaded", (event) => {
-  let myProjects = document.getElementById('projects')
+let myProjects = document.getElementById('projects')
 
+document.addEventListener("DOMContentLoaded", (event) => {
+  event.preventDefault()
 
   projectsArray.forEach((project) => {
     myProjects.innerHTML +=
     "<div class='project-item'><img class='project-img' src='" + project.src + "' alt=''><div class='bento'><h4> " + project.title + "</a</h4><p class='project-para'>" + project.description + "</p></div><div class='visit'><button href='" + project.url + "'>Visit Project</button></div></div>";
 
-      
   })
 })
 
